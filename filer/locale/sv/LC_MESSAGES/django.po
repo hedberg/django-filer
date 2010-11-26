@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-26 13:53+0100\n"
+"PO-Revision-Date: 2010-11-26 13:56+0100\n"
+"Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/fileadmin.py:35
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: admin/imageadmin.py:10
+msgid "Subject location"
+msgstr "Motivets placering"
+
+#: admin/imageadmin.py:10
+msgid "Location of the main subject of the scene."
+msgstr "Placeringen av bildens huvudmotiv"
+
+#: fields/file.py:47
+msgid "file missing!"
+msgstr "fil saknas!"
+
+#: fields/file.py:54
+#: fields/file.py:55
+#: fields/folder.py:43
+msgid "Lookup"
+msgstr "Sök"
+
+#: fields/file.py:57
+#: fields/folder.py:48
+msgid "Clear"
+msgstr "Rensa"
+
+#: models/clipboardmodels.py:23
+#: templates/admin/filer/tools/clipboard/clipboard.html:5
+msgid "Clipboard"
+msgstr "Klippyta"
+
+#: models/clipboardmodels.py:30
+msgid "Clipboard item"
+msgstr "Fil på klippyta"
+
+#: models/clipboardmodels.py:31
+msgid "Clipboard items"
+msgstr "Filer på klippyta"
+
+#: models/filemodels.py:27
+#: templates/admin/filer/folder/directory_table.html:11
+#: templates/admin/filer/folder/new_folder_form.html:13
+msgid "Name"
+msgstr "Namn"
+
+#: models/filemodels.py:28
+msgid "Description"
+msgstr "Beskrivning"
+
+#: models/filemodels.py:30
+#: templates/admin/filer/folder/directory_table.html:25
+#: templates/admin/filer/folder/directory_table.html:40
+msgid "Owner"
+msgstr "Ägare"
+
+#: models/filemodels.py:35
+msgid "Is public"
+msgstr "Publik"
+
+#: models/filemodels.py:186
+msgid "File"
+msgstr "Fil"
+
+#: models/filemodels.py:187
+msgid "Files"
+msgstr "Filer"
+
+#: models/foldermodels.py:187
+msgid "all items"
+msgstr "alla filer"
+
+#: models/foldermodels.py:188
+msgid "this item only"
+msgstr "endast denna fil"
+
+#: models/foldermodels.py:189
+msgid "this item and all children"
+msgstr "denna fil och filer på undernivåer"
+
+#: models/foldermodels.py:193
+msgid "type"
+msgstr "typ"
+
+#: models/foldermodels.py:194
+msgid "user"
+msgstr "användare"
+
+#: models/foldermodels.py:195
+msgid "group"
+msgstr "grupp"
+
+#: models/foldermodels.py:196
+msgid "everybody"
+msgstr "alla"
+
+#: models/foldermodels.py:198
+msgid "can edit"
+msgstr "kan redigera"
+
+#: models/foldermodels.py:199
+msgid "can read"
+msgstr "kan läsa"
+
+#: models/foldermodels.py:200
+msgid "can add children"
+msgstr "kan lägga till filer i undernivå"
+
+#: models/foldermodels.py:226
+msgid "Folder Permission"
+msgstr "Mappbehörighet"
+
+#: models/foldermodels.py:227
+msgid "Folder Permissions"
+msgstr "Mappbehörigheter"
+
+#: models/imagemodels.py:28
+msgid "date taken"
+msgstr "taget datum"
+
+#: models/imagemodels.py:172
+msgid "Image"
+msgstr "Bild"
+
+#: models/imagemodels.py:173
+#: templates/admin/filer/folder/directory_table.html:25
+msgid "Images"
+msgstr "Bilder"
+
+#: models/virtualitems.py:36
+#: templates/admin/filer/tools/clipboard/clipboard.html:22
+msgid "unfiled files"
+msgstr "Ej sorterade filer"
+
+#: models/virtualitems.py:46
+msgid "files with missing metadata"
+msgstr "filer som saknar metadata"
+
+#: models/virtualitems.py:56
+#: templates/admin/filer/breadcrumbs.html:5
+#: templates/admin/filer/folder/change_form.html:8
+#: templates/admin/filer/folder/directory_listing.html:52
+#: templates/admin/filer/folder/directory_listing.html:61
+#: templates/image_filer/image_export_form.html:9
+msgid "root"
+msgstr "root"
+
+#: templates/admin/filer/breadcrumbs.html:3
+msgid "Go back to admin homepage"
+msgstr "Gå tillbaka till admin-sida"
+
+#: templates/admin/filer/breadcrumbs.html:3
+#: templates/admin/filer/folder/change_form.html:6
+#: templates/image_filer/image_export_form.html:6
+msgid "Home"
+msgstr "Hem"
+
+#: templates/admin/filer/breadcrumbs.html:4
+msgid "Go back to Filer app"
+msgstr "Gå tillbaka till Filer-app"
+
+#: templates/admin/filer/breadcrumbs.html:4
+#: templates/admin/filer/folder/change_form.html:7
+#: templates/image_filer/image_export_form.html:7
+msgid "Filer"
+msgstr "Filer"
+
+#: templates/admin/filer/breadcrumbs.html:5
+#: templates/image_filer/image_export_form.html:9
+msgid "Go back to root folder"
+msgstr "Gå tillbaks till rotmapp"
+
+#: templates/admin/filer/breadcrumbs.html:7
+#: templates/admin/filer/folder/change_form.html:10
+#: templates/image_filer/image_export_form.html:11
+#: templates/image_filer/image_export_form.html:13
+#, python-format
+msgid "Go back to '%(folder_name)s' folder"
+msgstr "Gå tillbaka till mappen '%(folder_name)s'"
+
+#: templates/admin/filer/folder/change_form.html:6
+#: templates/admin/filer/folder/change_form.html:7
+#: templates/admin/filer/folder/change_form.html:8
+#: templates/admin/filer/folder/directory_listing.html:52
+#: templates/admin/filer/folder/directory_listing.html:61
+#: templates/image_filer/image_export_form.html:6
+#: templates/image_filer/image_export_form.html:7
+#: templates/image_filer/image_export_form.html:15
+msgid "Go back to"
+msgstr "Gå tillbaka till"
+
+#: templates/admin/filer/folder/change_form.html:6
+#: templates/image_filer/image_export_form.html:6
+msgid "admin homepage"
+msgstr "admin-sida"
+
+#: templates/admin/filer/folder/change_form.html:8
+#: templates/admin/filer/folder/directory_listing.html:52
+#: templates/admin/filer/folder/directory_listing.html:61
+#: templates/admin/filer/folder/new_folder_form.html:4
+#: templates/admin/filer/tools/clipboard/clipboard.html:22
+msgid "folder"
+msgstr "mapp"
+
+#: templates/admin/filer/folder/change_form.html:21
+#: templates/admin/filer/image/change_form.html:10
+msgid "History"
+msgstr "Historik"
+
+#: templates/admin/filer/folder/change_form.html:22
+#: templates/admin/filer/image/change_form.html:11
+msgid "View on site"
+msgstr "Visa på sajt"
+
+#: templates/admin/filer/folder/change_form.html:30
+#: templates/admin/filer/folder/directory_listing.html:62
+#: templates/admin/filer/folder/directory_listing.html:68
+#: templates/admin/filer/folder/directory_table.html:20
+msgid "Folder Icon"
+msgstr "Mappikon"
+
+#: templates/admin/filer/folder/directory_listing.html:49
+msgid "Adds a new Folder"
+msgstr "Skapar ny mapp"
+
+#: templates/admin/filer/folder/directory_listing.html:49
+#: templates/image_filer/include/export_dialog.html:34
+msgid "New Folder"
+msgstr "Ny mapp"
+
+#: templates/admin/filer/folder/directory_listing.html:53
+msgid "Show images with missing metadata"
+msgstr "Visa bilder som saknar metadata"
+
+#: templates/admin/filer/folder/directory_listing.html:53
+msgid "Incomplete Images"
+msgstr "Ej kompletta bilder"
+
+#: templates/admin/filer/folder/directory_listing.html:54
+msgid "Show unfiled images"
+msgstr "Visa osorterade bilder"
+
+#: templates/admin/filer/folder/directory_listing.html:54
+msgid "unfiled images"
+msgstr "osorterade bilder"
+
+#: templates/admin/filer/folder/directory_listing.html:61
+msgid "Go back to the parent folder"
+msgstr "Gå tillbaka till föregående mapp"
+
+#: templates/admin/filer/folder/directory_listing.html:63
+#: templates/admin/filer/tools/search_form.html:15
+#, python-format
+msgid "1 folder"
+msgid_plural "%(counter)s folders"
+msgstr[0] "1 mapp"
+msgstr[1] "%(counter)s mappar"
+
+#: templates/admin/filer/folder/directory_listing.html:63
+#: templates/admin/filer/tools/search_form.html:16
+#, python-format
+msgid "1 file"
+msgid_plural "%(counter)s files"
+msgstr[0] "1 fil"
+msgstr[1] "%(counter)s filer"
+
+#: templates/admin/filer/folder/directory_listing.html:64
+msgid "Change current folder details"
+msgstr "Ändra inställningar för aktuell mapp"
+
+#: templates/admin/filer/folder/directory_listing.html:64
+#: templates/admin/filer/folder/directory_table.html:23
+#: templates/admin/filer/folder/directory_table.html:37
+msgid "Change"
+msgstr "Ändra"
+
+#: templates/admin/filer/folder/directory_table.html:20
+#: templates/admin/filer/folder/directory_table.html:23
+#: templates/admin/filer/folder/directory_table.html:24
+#, python-format
+msgid "Change '%(item_label)s' folder details"
+msgstr "Ändra mappinställningar för '%(item_label)s'"
+
+#: templates/admin/filer/folder/directory_table.html:25
+msgid "Folders"
+msgstr "Mappar"
+
+#: templates/admin/filer/folder/directory_table.html:32
+msgid "Select this file"
+msgstr "Välj denna fil"
+
+#: templates/admin/filer/folder/directory_table.html:34
+#: templates/admin/filer/folder/directory_table.html:37
+#: templates/admin/filer/folder/directory_table.html:38
+#, python-format
+msgid "Change '%(item_label)s' details"
+msgstr "Ändra detaljer för '%(item_label)s'"
+
+#: templates/admin/filer/folder/directory_table.html:49
+msgid "Move to clipboard"
+msgstr "Flytta till klippyta"
+
+#: templates/admin/filer/folder/directory_table.html:57
+msgid "there are no files or subfolders"
+msgstr "det finns inga filer eller undermappar"
+
+#: templates/admin/filer/folder/new_folder_form.html:4
+msgid "Add new"
+msgstr "Lägg till ny"
+
+#: templates/admin/filer/folder/new_folder_form.html:18
+msgid "Save"
+msgstr "Spara"
+
+#: templates/admin/filer/image/change_form.html:23
+msgid "Set focal point"
+msgstr "Sätt fokuspunkt"
+
+#: templates/admin/filer/image/change_form.html:25
+msgid "Full size preview"
+msgstr "Förhandsgranska full storlek"
+
+#: templates/admin/filer/tools/search_form.html:8
+#: templates/admin/filer/tools/search_form.html:11
+msgid "Search"
+msgstr "Sök"
+
+#: templates/admin/filer/tools/search_form.html:10
+msgid "Enter your search phrase here"
+msgstr "Ange din sökfras här"
+
+#: templates/admin/filer/tools/search_form.html:11
+msgid "Click here to"
+msgstr "Klicka här för att"
+
+#: templates/admin/filer/tools/search_form.html:11
+msgid "run search for entered phrase"
+msgstr "söka efter angiven fras"
+
+#: templates/admin/filer/tools/search_form.html:12
+msgid "Check it to"
+msgstr "Kryssa för att"
+
+#: templates/admin/filer/tools/search_form.html:12
+#: templates/admin/filer/tools/search_form.html:13
+msgid "limit the search to current folder"
+msgstr "begränsa sökning till aktuell mapp"
+
+#: templates/admin/filer/tools/search_form.html:15
+msgid "found"
+msgstr "hittade"
+
+#: templates/admin/filer/tools/search_form.html:15
+msgid "and"
+msgstr "och"
+
+#: templates/admin/filer/tools/search_form.html:16
+msgid "cancel search"
+msgstr "avbryt sökning"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:16
+msgid "Paste all items here"
+msgstr "Klistra in alla objekt här"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:22
+msgid "discard"
+msgstr "kasta"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:22
+msgid "Move all clipboard files to"
+msgstr "Flytta alla filer i klippytan till"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:28
+msgid "delete files"
+msgstr "radera filer"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:28
+msgid "Delete all files in the clipboard"
+msgstr "Radera alla filer i klippytan"
+
+#: templates/admin/filer/tools/clipboard/clipboard.html:38
+msgid "the clipboard is empty"
+msgstr "klippytan är tom"
+
+#: templates/admin/filer/tools/clipboard/clipboard_item_rows.html:11
+msgid "upload failed"
+msgstr "uppladdningen misslyckades"
+
+#: templates/image_filer/folder.html:3
+#, python-format
+msgid "Folder '%(folder_label)s' files"
+msgstr "Filer i '%(folder_label)s'"
+
+#: templates/image_filer/folder.html:6
+msgid "File name"
+msgstr "FIlnamn"
+
+#: templates/image_filer/image.html:6
+msgid "author"
+msgstr "författare"
+
+#: templates/image_filer/image_export_form.html:16
+msgid "export"
+msgstr "exportera"
+
+#: templates/image_filer/image_export_form.html:26
+msgid "download image"
+msgstr "ladda ner bild"
+
+#: templates/image_filer/include/export_dialog.html:13
+msgid "Folder name already taken."
+msgstr "Det mappnamnet är redan använt."
+
+#: templates/image_filer/include/export_dialog.html:15
+msgid "Submit"
+msgstr "Skicka"
+
