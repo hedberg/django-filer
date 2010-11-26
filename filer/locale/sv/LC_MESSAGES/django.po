@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-26 13:53+0100\n"
-"PO-Revision-Date: 2010-11-26 13:56+0100\n"
+"PO-Revision-Date: 2010-11-26 14:01+0100\n"
 "Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -75,7 +75,7 @@ msgstr "Ägare"
 
 #: models/filemodels.py:35
 msgid "Is public"
-msgstr "Publik"
+msgstr "Offentlig"
 
 #: models/filemodels.py:186
 msgid "File"
@@ -333,7 +333,7 @@ msgstr "Spara"
 
 #: templates/admin/filer/image/change_form.html:23
 msgid "Set focal point"
-msgstr "Sätt fokuspunkt"
+msgstr "Placera fokuspunkt"
 
 #: templates/admin/filer/image/change_form.html:25
 msgid "Full size preview"
