@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-26 13:53+0100\n"
-"PO-Revision-Date: 2010-11-26 14:01+0100\n"
+"POT-Creation-Date: 2010-11-30 03:53+0100\n"
+"PO-Revision-Date: 2010-11-30 03:53+0100\n"
 "Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -85,51 +85,64 @@ msgstr "Fil"
 msgid "Files"
 msgstr "Filer"
 
-#: models/foldermodels.py:187
+#: models/foldermodels.py:170
+#: templates/admin/filer/folder/change_form.html:8
+#: templates/admin/filer/folder/directory_listing.html:52
+#: templates/admin/filer/folder/directory_listing.html:61
+#: templates/admin/filer/folder/new_folder_form.html:4
+#: templates/admin/filer/tools/clipboard/clipboard.html:22
+msgid "folder"
+msgstr "mapp"
+
+#: models/foldermodels.py:171
+msgid "folders"
+msgstr "mappar"
+
+#: models/foldermodels.py:189
 msgid "all items"
 msgstr "alla filer"
 
-#: models/foldermodels.py:188
+#: models/foldermodels.py:190
 msgid "this item only"
 msgstr "endast denna fil"
 
-#: models/foldermodels.py:189
+#: models/foldermodels.py:191
 msgid "this item and all children"
 msgstr "denna fil och filer på undernivåer"
 
-#: models/foldermodels.py:193
+#: models/foldermodels.py:195
 msgid "type"
 msgstr "typ"
 
-#: models/foldermodels.py:194
+#: models/foldermodels.py:196
 msgid "user"
 msgstr "användare"
 
-#: models/foldermodels.py:195
+#: models/foldermodels.py:197
 msgid "group"
 msgstr "grupp"
 
-#: models/foldermodels.py:196
+#: models/foldermodels.py:198
 msgid "everybody"
 msgstr "alla"
 
-#: models/foldermodels.py:198
+#: models/foldermodels.py:200
 msgid "can edit"
 msgstr "kan redigera"
 
-#: models/foldermodels.py:199
+#: models/foldermodels.py:201
 msgid "can read"
 msgstr "kan läsa"
 
-#: models/foldermodels.py:200
+#: models/foldermodels.py:202
 msgid "can add children"
 msgstr "kan lägga till filer i undernivå"
 
-#: models/foldermodels.py:226
+#: models/foldermodels.py:228
 msgid "Folder Permission"
 msgstr "Mappbehörighet"
 
-#: models/foldermodels.py:227
+#: models/foldermodels.py:229
 msgid "Folder Permissions"
 msgstr "Mappbehörigheter"
 
@@ -212,14 +225,6 @@ msgstr "Gå tillbaka till"
 #: templates/image_filer/image_export_form.html:6
 msgid "admin homepage"
 msgstr "admin-sida"
-
-#: templates/admin/filer/folder/change_form.html:8
-#: templates/admin/filer/folder/directory_listing.html:52
-#: templates/admin/filer/folder/directory_listing.html:61
-#: templates/admin/filer/folder/new_folder_form.html:4
-#: templates/admin/filer/tools/clipboard/clipboard.html:22
-msgid "folder"
-msgstr "mapp"
 
 #: templates/admin/filer/folder/change_form.html:21
 #: templates/admin/filer/image/change_form.html:10
