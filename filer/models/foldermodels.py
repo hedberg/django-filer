@@ -167,6 +167,8 @@ class Folder(models.Model, mixins.IconsMixin):
     def __unicode__(self):
         return u"%s" % (self.name,)
     class Meta:
+        verbose_name = _('folder')
+        verbose_name_plural = _('folders')
         unique_together = (('parent','name'),)
         ordering = ('name',)
         permissions = (("can_use_directory_listing", "Can use directory listing"),)
