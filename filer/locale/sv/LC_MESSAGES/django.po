@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-30 04:05+0100\n"
-"PO-Revision-Date: 2010-11-30 04:05+0100\n"
+"POT-Creation-Date: 2010-12-06 00:26+0100\n"
+"PO-Revision-Date: 2010-12-06 00:31+0100\n"
 "Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin/fileadmin.py:35
+#: admin/fileadmin.py:36
 msgid "Advanced"
 msgstr "Avancerat"
 
@@ -27,7 +27,11 @@ msgstr "Motivets placering"
 
 #: admin/imageadmin.py:10
 msgid "Location of the main subject of the scene."
-msgstr "Placeringen av bildens huvudmotiv"
+msgstr "Huvudmotivets placeringen i bilden"
+
+#: admin/imageadmin.py:42
+msgid "Subject Location"
+msgstr "Fokuspunkt"
 
 #: fields/file.py:47
 msgid "file missing!"
@@ -57,31 +61,36 @@ msgstr "Fil på klippyta"
 msgid "Clipboard items"
 msgstr "Filer på klippyta"
 
-#: models/filemodels.py:27
+#: models/filemodels.py:30
+msgid "Folder"
+msgstr "Mapp"
+
+#: models/filemodels.py:31
+#: models/filemodels.py:214
+msgid "File"
+msgstr "Fil"
+
+#: models/filemodels.py:40
 #: templates/admin/filer/folder/directory_table.html:11
 #: templates/admin/filer/folder/new_folder_form.html:13
 msgid "Name"
 msgstr "Namn"
 
-#: models/filemodels.py:28
+#: models/filemodels.py:41
 msgid "Description"
 msgstr "Beskrivning"
 
-#: models/filemodels.py:30
+#: models/filemodels.py:43
 #: templates/admin/filer/folder/directory_table.html:25
 #: templates/admin/filer/folder/directory_table.html:40
 msgid "Owner"
 msgstr "Ägare"
 
-#: models/filemodels.py:35
+#: models/filemodels.py:48
 msgid "Is public"
 msgstr "Offentlig"
 
-#: models/filemodels.py:186
-msgid "File"
-msgstr "Fil"
-
-#: models/filemodels.py:187
+#: models/filemodels.py:215
 msgid "Files"
 msgstr "Filer"
 
@@ -210,6 +219,10 @@ msgstr "Gå tillbaks till rotmapp"
 msgid "Go back to '%(folder_name)s' folder"
 msgstr "Gå tillbaka till mappen '%(folder_name)s'"
 
+#: templates/admin/filer/change_form.html:24
+msgid "duplicates"
+msgstr "dubletter"
+
 #: templates/admin/filer/folder/change_form.html:6
 #: templates/admin/filer/folder/change_form.html:7
 #: templates/admin/filer/folder/change_form.html:8
@@ -227,12 +240,12 @@ msgid "admin homepage"
 msgstr "admin-sida"
 
 #: templates/admin/filer/folder/change_form.html:21
-#: templates/admin/filer/image/change_form.html:10
+#: templates/admin/filer/image/change_form.html:9
 msgid "History"
 msgstr "Historik"
 
 #: templates/admin/filer/folder/change_form.html:22
-#: templates/admin/filer/image/change_form.html:11
+#: templates/admin/filer/image/change_form.html:10
 msgid "View on site"
 msgstr "Visa på sajt"
 
@@ -273,7 +286,7 @@ msgid "Go back to the parent folder"
 msgstr "Gå tillbaka till föregående mapp"
 
 #: templates/admin/filer/folder/directory_listing.html:63
-#: templates/admin/filer/tools/search_form.html:15
+#: templates/admin/filer/tools/search_form.html:18
 #, python-format
 msgid "1 folder"
 msgid_plural "%(counter)s folders"
@@ -281,7 +294,7 @@ msgstr[0] "1 mapp"
 msgstr[1] "%(counter)s mappar"
 
 #: templates/admin/filer/folder/directory_listing.html:63
-#: templates/admin/filer/tools/search_form.html:16
+#: templates/admin/filer/tools/search_form.html:19
 #, python-format
 msgid "1 file"
 msgid_plural "%(counter)s files"
@@ -336,49 +349,45 @@ msgstr "Lägg till ny"
 msgid "Save"
 msgstr "Spara"
 
-#: templates/admin/filer/image/change_form.html:23
-msgid "Set focal point"
-msgstr "Placera fokuspunkt"
-
-#: templates/admin/filer/image/change_form.html:25
+#: templates/admin/filer/image/change_form.html:21
 msgid "Full size preview"
 msgstr "Förhandsgranska full storlek"
 
 #: templates/admin/filer/tools/search_form.html:8
-#: templates/admin/filer/tools/search_form.html:11
+#: templates/admin/filer/tools/search_form.html:14
 msgid "Search"
 msgstr "Sök"
 
-#: templates/admin/filer/tools/search_form.html:10
+#: templates/admin/filer/tools/search_form.html:13
 msgid "Enter your search phrase here"
 msgstr "Ange din sökfras här"
 
-#: templates/admin/filer/tools/search_form.html:11
+#: templates/admin/filer/tools/search_form.html:14
 msgid "Click here to"
 msgstr "Klicka här för att"
 
-#: templates/admin/filer/tools/search_form.html:11
+#: templates/admin/filer/tools/search_form.html:14
 msgid "run search for entered phrase"
 msgstr "söka efter angiven fras"
 
-#: templates/admin/filer/tools/search_form.html:12
+#: templates/admin/filer/tools/search_form.html:15
 msgid "Check it to"
 msgstr "Kryssa för att"
 
-#: templates/admin/filer/tools/search_form.html:12
-#: templates/admin/filer/tools/search_form.html:13
+#: templates/admin/filer/tools/search_form.html:15
+#: templates/admin/filer/tools/search_form.html:16
 msgid "limit the search to current folder"
 msgstr "begränsa sökning till aktuell mapp"
 
-#: templates/admin/filer/tools/search_form.html:15
+#: templates/admin/filer/tools/search_form.html:18
 msgid "found"
 msgstr "hittade"
 
-#: templates/admin/filer/tools/search_form.html:15
+#: templates/admin/filer/tools/search_form.html:18
 msgid "and"
 msgstr "och"
 
-#: templates/admin/filer/tools/search_form.html:16
+#: templates/admin/filer/tools/search_form.html:19
 msgid "cancel search"
 msgstr "avbryt sökning"
 
@@ -438,6 +447,9 @@ msgstr "Det mappnamnet är redan använt."
 #: templates/image_filer/include/export_dialog.html:15
 msgid "Submit"
 msgstr "Skicka"
+
+#~ msgid "Set focal point"
+#~ msgstr "Placera fokuspunkt"
 
 #, fuzzy
 #~ msgid "molders"
