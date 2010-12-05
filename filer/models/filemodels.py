@@ -27,8 +27,8 @@ class FileManager(models.Manager):
 
 class File(models.Model, mixins.IconsMixin):
     _icon = "file"
-    folder = models.ForeignKey(Folder, related_name='all_files', null=True, blank=True)
-    file = ThumbnailerField(upload_to=get_directory_name, null=True, blank=True, max_length=255)
+    folder = models.ForeignKey(Folder, related_name='all_files', null=True, blank=True, verbose_name=_("Folder"))
+    file = ThumbnailerField(upload_to=get_directory_name, null=True, blank=True, max_length=255, verbose_name=_("File"))
     _file_type_plugin_name = models.CharField("file_type_plugin_name", max_length=128, null=True, blank=True, editable=False)
     _file_size = models.IntegerField(null=True, blank=True)
     
